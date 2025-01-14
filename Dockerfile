@@ -35,8 +35,8 @@ RUN npm install -g serve
 # Copy built files from builder stage
 COPY --from=builder /app/packages/auth-server/dist ./dist
 
-# Expose default serve port
-EXPOSE 3000
+# Expose serve port
+EXPOSE 8080
 
-# Start the server
-CMD ["serve", "-s", "dist"]
+# Start the server on port 8080
+CMD ["serve", "-s", "dist", "-l", "8080"]
