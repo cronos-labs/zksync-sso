@@ -1,5 +1,5 @@
 # Build stage
-FROM node:18-alpine AS builder
+FROM node:23-alpine AS builder
 
 # Build arguments for environment variables
 ARG NUXT_PUBLIC_DEFAULT_CHAIN_ID
@@ -25,7 +25,7 @@ RUN pnpm install --frozen-lockfile
 RUN pnpm nx run auth-server:build
 
 # Production stage
-FROM node:18-alpine
+FROM node:23-alpine
 
 WORKDIR /app
 
