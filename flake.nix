@@ -16,7 +16,7 @@
       with pkgs; let
         # Common environment variables
         commonEnv = {
-          NUXT_TELEMETRY_DISABLED = 1;
+          NUXT_TELEMETRY_DISABLED = "1";
         };
 
         # Environment-specific configurations
@@ -55,7 +55,7 @@
 
             buildPhase = ''
               runHook preBuild
-              faketty pnpm nx run auth-server:build
+              faketty pnpm nx build auth-server
               runHook postBuild
             '';
 
