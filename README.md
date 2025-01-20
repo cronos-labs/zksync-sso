@@ -125,6 +125,36 @@ This monorepo is comprised of the following packages, products, and examples:
    [workspace protocol](https://pnpm.io/workspaces#workspace-protocol-workspace)
    to link SDK in the new folder.
 
+3. Install `foundry-zksync`:
+
+   ```bash
+   curl -L https://raw.githubusercontent.com/matter-labs/foundry-zksync/main/install-foundry-zksync | bash
+   ```
+
+4. Start a local node:
+
+   ```bash
+   npx zksync-cli dev start
+   ```
+
+5. Compile and deploy contracts to the local node:
+
+   ```bash
+   # Compile and deploy contracts
+   cd packages/contracts
+   pnpm build
+   pnpm run deploy
+   ```
+
+6. Start the demo application:
+
+   ```bash
+   pnpm nx dev demo-app
+   ```
+
+Your local Auth Server will be running at `http://localhost:3002/`, and the demo
+app will be running at `http://localhost:3004/`.
+
 ## Running commands
 
 Use the NX CLI to run project commands, however PNPM is still usable as an
