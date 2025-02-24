@@ -23,6 +23,10 @@ const cronoszkEVMTestnet = defineChain({
       name: "Cronos zkEVM Testnet Explorer",
       url: "https://explorer.zkevm.cronos.org/testnet",
     },
+    native: {
+      name: "Cronos zkEVM Testnet Explorer",
+      url: "https://explorer.zkevm.cronos.org/testnet",
+    },
   },
   testnet: true,
 });
@@ -58,10 +62,10 @@ export const contractsByChain: Record<SupportedChainId, ChainContracts> = {
     accountPaymaster: "0x61C2F9736eC60C9175Cdc02DB81D730cf06eF0Ee",
   },
   [cronoszkEVMTestnet.id]: {
-    session: "0xe2f455F7CBeAfc86Ac23f831F008F52da4BEF621",
-    passkey: "0x0194348FC325805e78e8ec81d857305C430221FA",
-    accountFactory: "0x5aAc101468ff14f8BD5bca6643BfD22D87943D62",
-    accountPaymaster: "0x6b1b343e20157D8dA0198AA35FbD9e61e6Ab35B1",
+    session: "0xfebC82bBFC6FB8666AC45fa8a601DfA34Ce30710",
+    passkey: "0x0A019BD60E42b9d18413C710992B96E69dFFC5A0",
+    accountFactory: "0x381539B4FC39eAe0Eb848f52cCA93F168a0e955D",
+    accountPaymaster: "0xA7B450E91Bc126aa93C656750f9c940bfdc2f1e9",
   },
 };
 
