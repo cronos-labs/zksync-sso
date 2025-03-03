@@ -5,7 +5,7 @@
     <div class="flex items-center pl-3">
       <NuxtLink to="/dashboard">
         <app-account-logo
-          :height="24"
+          :height="30"
           class="dark:text-neutral-100"
         />
       </NuxtLink>

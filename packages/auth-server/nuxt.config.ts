@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   modules: ["@nuxt/eslint", "@pinia/nuxt", "@nuxtjs/tailwindcss", "@nuxtjs/google-fonts", "@vueuse/nuxt", "radix-vue/nuxt", "@nuxtjs/color-mode", "nuxt-gtag"],
   app: {
     head: {
-      title: "ZKsync SSO",
+      title: "Cronos zkEVM SSO",
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico", sizes: "32x32" },
         { rel: "icon", type: "image/png", href: "/icon-96x96.png", sizes: "96x96" },

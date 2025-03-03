@@ -1,5 +1,5 @@
 {
-  "name": "ZKsync SSO Auth Server",
+  "name": "Cronos zkEVM SSO Auth Server",
   "icons": [
     { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
     { "src": "/icon-mask.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" },

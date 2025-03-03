@@ -31,7 +31,7 @@
       </template>
       <template #default>
         <p class="text-sm">
-          ZKsync SSO is still under development. The displayed spending amounts may not always be accurate.
+          Cronos zkEVM SSO is still under development. The displayed spending amounts may not always be accurate.
         </p>
       </template>
     </CommonAlert>
