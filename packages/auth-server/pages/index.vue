@@ -1,7 +1,9 @@
 <template>
   <main class="h-full flex flex-col justify-center px-4">
     <AppAccountLogo
-      class="dark:text-neutral-100 h-16 md:h-20 mb-8"
+      :light="true"
+      :height="80"
+      class="dark:text-neutral-100 md:h-20 mb-8"
     />
 
     <div class="flex flex-col gap-5 mt-8 py-8">
