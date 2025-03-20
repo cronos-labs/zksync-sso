@@ -1,3 +1,4 @@
 [submodule "packages/contracts"]
 	path = packages/contracts
 	url = https://github.com/cronos-labs/zksync-sso-clave-contracts.git
+	branch = main
