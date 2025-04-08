@@ -1,4 +1,4 @@
 [submodule "packages/contracts"]
 	path = packages/contracts
-	url = git@github.com:matter-labs/zksync-sso-clave-contracts.git
+	url = https://github.com/matter-labs/zksync-sso-clave-contracts.git
 	branch = main
