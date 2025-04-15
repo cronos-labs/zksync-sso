@@ -64,6 +64,9 @@ export default defineNuxtConfig({
       [240]: {
         nftQuestAddress: process.env.NUXT_PUBLIC_CRONOS_ZKEVM_NFT_QUEST_ADDRESS || "",
       },
+      [388]: {
+        nftQuestAddress: process.env.NUXT_PUBLIC_CRONOS_ZKEVM_NFT_QUEST_ADDRESS || "",
+      },
     },
   },
 });
